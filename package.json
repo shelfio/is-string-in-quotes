@@ -1,7 +1,7 @@
 {
   "name": "@shelf/is-string-in-quotes",
   "version": "0.1.1",
-  "description": "Check if string is inside quotation marks (21 styles)",
+  "description": "Check if string is inside quotation marks (22 styles)",
   "license": "MIT",
   "repository": "shelfio/is-string-in-quotes",
   "author": {

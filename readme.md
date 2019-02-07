@@ -1,6 +1,6 @@
 # is-string-in-quotes [![CircleCI](https://circleci.com/gh/shelfio/is-string-in-quotes/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/is-string-in-quotes/tree/master) ![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg) [![npm (scoped)](https://img.shields.io/npm/v/@shelf/is-string-in-quotes.svg)](https://www.npmjs.com/package/@shelf/is-string-in-quotes)
 
-> Check if string is inside quotation marks. Supports 21 quotation styles ([source](https://en.wikipedia.org/wiki/Quotation_mark#Summary_table))
+> Check if string is inside quotation marks. Supports 22 quotation styles ([source](https://en.wikipedia.org/wiki/Quotation_mark#Summary_table))
 
 ## Install
 
