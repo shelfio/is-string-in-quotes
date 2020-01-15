@@ -1,4 +1,4 @@
-const {isStringInQuotes} = require('./index');
+import {isStringInQuotes} from './index';
 
 it('should export isStringInQuotes function', () => {
   expect(isStringInQuotes).toBeInstanceOf(Function);
@@ -12,14 +12,14 @@ it('should return false for no args', () => {
   expect(isStringInQuotes()).toEqual(false);
 });
 
-it('should return true for empty string in quotes ', () => {
+it('should return true for empty string in quotes', () => {
   expect(isStringInQuotes('""')).toEqual(true);
 });
 
-it('should return true for non empty string in quotes ', () => {
+it('should return true for non empty string in quotes', () => {
   expect(isStringInQuotes('"hello"')).toEqual(true);
 });
 
-it('should return true for non empty string in different quotes ', () => {
+it('should return true for non empty string in different quotes', () => {
   expect(isStringInQuotes('„hello”')).toEqual(true);
 });

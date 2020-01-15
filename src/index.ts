@@ -1,6 +1,6 @@
 // @see https://en.wikipedia.org/wiki/Quotation_mark#Summary_table
 
-const regexps = [
+export const regexps: RegExp[] = [
   /^'.*'$/,
   /^".*"$/,
   /^,.*‘$/,
@@ -25,9 +25,6 @@ const regexps = [
   /^『.*』$/
 ];
 
-module.exports = {
-  regexps,
-  isStringInQuotes(str = '') {
-    return regexps.some(r => r.test(str));
-  }
-};
+export function isStringInQuotes(str = ''): boolean {
+  return regexps.some(r => r.test(str));
+}
