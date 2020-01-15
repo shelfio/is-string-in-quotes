@@ -5,7 +5,6 @@
   "keywords": [
     "string",
     "quotes",
-    "quotes in string",
     "is-string-in-quotes"
   ],
   "repository": "shelfio/is-string-in-quotes",
@@ -16,9 +15,9 @@
     "url": "shelf.io"
   },
   "files": [
-    "src/index.js"
+    "lib"
   ],
-  "main": "src/index.js",
+  "main": "lib",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "rm -rf lib/ && yarn build:types && babel src --out-dir lib --ignore '**/*.test.ts' --extensions '.ts'",
