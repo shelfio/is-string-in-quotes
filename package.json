@@ -14,11 +14,11 @@
     "email": "vlad@shelf.io",
     "url": "shelf.io"
   },
+  "main": "lib",
+  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "main": "lib",
-  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rm -rf lib/ && yarn build:types && babel src --out-dir lib --ignore '**/*.test.ts' --extensions '.ts'",
     "build:types": "tsc --emitDeclarationOnly --declaration --isolatedModules false --declarationDir lib",
@@ -55,11 +55,11 @@
     "@babel/preset-env": "7.9.0",
     "@babel/preset-typescript": "7.9.0",
     "@shelf/eslint-config": "0.16.0",
-    "@types/jest": "26.0.9",
+    "@types/jest": "26.0.24",
     "@types/node": "12",
     "eslint": "7.1.0",
     "husky": "8.0.2",
-    "jest": "26.2.2",
+    "jest": "26.6.3",
     "lint-staged": "10.2.2",
     "prettier": "2.0.5",
     "typescript": "4.9.4"
