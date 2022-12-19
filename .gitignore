@@ -3,6 +3,8 @@ coverage/
 node_modules/
 dist/
 lib/
+!.husky/_/husky.sh
+!.husky/_/husky.sh
 temp
 yarn.lock
 *.log
