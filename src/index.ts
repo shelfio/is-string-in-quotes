@@ -22,9 +22,9 @@ export const regexps: RegExp[] = [
   /^〈.*〉$/,
   /^《.*》$/,
   /^「.*」$/,
-  /^『.*』$/
+  /^『.*』$/,
 ];
 
 export function isStringInQuotes(str = ''): boolean {
-  return regexps.some(r => r.test(str));
+  return regexps.some((r) => r.test(str));
 }
