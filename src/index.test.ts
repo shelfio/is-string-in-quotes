@@ -1,4 +1,4 @@
-import {isStringInQuotes} from './index';
+import {isStringInQuotes} from './index.js';
 
 it('should export isStringInQuotes function', () => {
   expect(isStringInQuotes).toBeInstanceOf(Function);
